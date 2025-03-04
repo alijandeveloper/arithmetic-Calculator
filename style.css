@@ -64,3 +64,17 @@ body {
 .operator:hover {
     background: darkorange;
 }
+.theme-toggle {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.theme-toggle button {
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background: white;
+}
